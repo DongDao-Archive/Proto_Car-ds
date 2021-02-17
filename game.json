@@ -1,0 +1,2265 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "portrait",
+    "packageName": "com.example.gamename",
+    "projectFile": "C:\\Users\\garud\\Desktop\\Archived project\\Car-ds\\game.json",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Car-ds",
+    "author": "",
+    "windowWidth": 320,
+    "windowHeight": 640,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 30,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/ExitBtn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\ExitBtn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/ExitBtnPress.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\ExitBtnPress.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/GalleryBtn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\GalleryBtn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/GalleryBtnPress.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\GalleryBtnPress.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/PlayBtn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\PlayBtn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/PlayBtnPress.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\PlayBtnPress.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Resource/Visual/Video/Demo2 Reduced.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Resource\\Visual\\Video\\Demo2 Reduced.mp4",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Black.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Resource/Font/press_start_2p/PressStart2P.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Resource\\Font\\press_start_2p\\PressStart2P.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUDLoop-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUDLoop-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUDLoop-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUDLoop-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUDLoop-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUDLoop-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUDLoop-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUDLoop-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUDLoop-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUDLoop-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUDLoop-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUDLoop-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUDLoop-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUDLoop-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUDLoop-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUDLoop-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/HUD/HUD-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\HUD\\HUD-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Debris.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Debris.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Horde/Control55-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Horde\\Control55-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Horde/Control55-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Horde\\Control55-2-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Horde/Control55-3-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Horde\\Control55-3-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Horde/Control55-4-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Horde\\Control55-4-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Horde/Control55-5-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Horde\\Control55-5-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Horde/Control55-6-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Horde\\Control55-6-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Horde/Control55-7-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Horde\\Control55-7-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Horde/Control55-8-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Horde\\Control55-8-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Scatter/Control55-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Scatter\\Control55-1-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Scatter/Control55-2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Scatter\\Control55-2-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Scatter/Control55-3-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Scatter\\Control55-3-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Scatter/Control55-4-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Scatter\\Control55-4-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Scatter/Control55-5-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Scatter\\Control55-5-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Scatter/Control55-6-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Scatter\\Control55-6-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Scatter/Control55-7-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Scatter\\Control55-7-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Scatter/Control55-8-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Scatter\\Control55-8-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/AI-Director.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\AI-Director.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/EnergyBar/Flash-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\EnergyBar\\Flash-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/EnergyBar/Flash-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\EnergyBar\\Flash-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/EnergyBar/Flash-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\EnergyBar\\Flash-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/EnergyBar/Flash-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\EnergyBar\\Flash-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/EnergyBar/Flash-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\EnergyBar\\Flash-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/EnergyBar/Flash-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\EnergyBar\\Flash-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/Normal/ProtoCar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\Normal\\ProtoCar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/Normal/ProtoCar_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\Normal\\ProtoCar_Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/Normal/ProtoCar_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\Normal\\ProtoCar_Right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/Drifting/ProtoCar_Drift.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\Drifting\\ProtoCar_Drift.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/Drifting/ProtoCar_Drift_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\Drifting\\ProtoCar_Drift_Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/Drifting/ProtoCar_Drift_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\Drifting\\ProtoCar_Drift_Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/DriftPower/ProtoCar_DriftPower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\DriftPower\\ProtoCar_DriftPower.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/DriftPower/ProtoCar_DriftPower_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\DriftPower\\ProtoCar_DriftPower_Left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/DriftPower/ProtoCar_DriftPower_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\DriftPower\\ProtoCar_DriftPower_Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/SideWinder/ProtoCar_SideWinder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\SideWinder\\ProtoCar_SideWinder.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/SideWinder/ProtoCar_SideWinder_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\SideWinder\\ProtoCar_SideWinder_Left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Car/SideWinder/ProtoCar_SideWinder_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Car\\SideWinder\\ProtoCar_SideWinder_Right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Distance/Icon-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Distance\\Icon-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Cards/Neutral-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Cards\\Neutral-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Cards/Offense-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Cards\\Offense-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Cards/Offense-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Cards\\Offense-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Cards/Neutral-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Cards\\Neutral-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Cards/Defense-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Cards\\Defense-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Cards/Defense-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Cards\\Defense-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Cards/Defense-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Cards\\Defense-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/CardBorder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\CardBorder.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Background/RoadStripes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Background\\RoadStripes.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ASS_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ASS_Left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ASS_Normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ASS_Normal.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ASS_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ASS_Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Speedometer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Speedometer.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Scatter/Scatter-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Scatter\\Scatter-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Scatter/Scatter-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Scatter\\Scatter-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Scatter/Scatter-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Scatter\\Scatter-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Scatter/Scatter-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Scatter\\Scatter-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Horde/Scatter-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Horde\\Scatter-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Horde/Scatter-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Horde\\Scatter-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Horde/Scatter-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Horde\\Scatter-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Horde/Scatter-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Horde\\Scatter-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Shrapnel/Shrapnel-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Shrapnel\\Shrapnel-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Shrapnel/Shrapnel-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Shrapnel\\Shrapnel-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Shrapnel/Shrapnel-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Shrapnel\\Shrapnel-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Shrapnel/Shrapnel-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Shrapnel\\Shrapnel-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Shrapnel/Shrapnel-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Shrapnel\\Shrapnel-5-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/Dead/Shrapnel/Shrapnel-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\Dead\\Shrapnel\\Shrapnel-6-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Horde/Horde-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Horde\\Horde-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Horde/Horde-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Horde\\Horde-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Horde/Horde-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Horde\\Horde-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Horde/Horde-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Horde\\Horde-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Horde/Horde-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Horde\\Horde-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Horde/Horde-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Horde\\Horde-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Horde/Horde-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Horde\\Horde-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Horde/Horde-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Horde\\Horde-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Debris/Debris-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Debris\\Debris-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Debris/Debris-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Debris\\Debris-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Debris/Debris-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Debris\\Debris-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Debris/Debris-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Debris\\Debris-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Debris/Debris-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Debris\\Debris-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Debris/Debris-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Debris\\Debris-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Debris/Debris-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Debris\\Debris-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Debris/Debris-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Debris\\Debris-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Scatter/Debris-1-Copy-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Scatter\\Debris-1-Copy-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Scatter/Debris-1-Copy-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Scatter\\Debris-1-Copy-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Scatter/Debris-1-Copy-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Scatter\\Debris-1-Copy-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Scatter/Debris-1-Copy-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Scatter\\Debris-1-Copy-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Scatter/Debris-1-Copy-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Scatter\\Debris-1-Copy-5-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Scatter/Debris-1-Copy-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Scatter\\Debris-1-Copy-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Scatter/Debris-1-Copy-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Scatter\\Debris-1-Copy-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Scatter/Debris-1-Copy-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Scatter\\Debris-1-Copy-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-6-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ThunderStrike/Strike-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ThunderStrike\\Strike-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ThunderStrike/Strike-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ThunderStrike\\Strike-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ThunderStrike/Strike-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ThunderStrike\\Strike-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ThunderStrike/Strike-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ThunderStrike\\Strike-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/NitroFreeze/NitroFreeze-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\NitroFreeze\\NitroFreeze-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/NitroFreeze/NitroFreeze-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\NitroFreeze\\NitroFreeze-2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/NitroFreeze/NitroFreeze-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\NitroFreeze\\NitroFreeze-3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/NitroFreeze/NitroFreeze-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\NitroFreeze\\NitroFreeze-4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/NitroFreeze/NitroFreeze-5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\NitroFreeze\\NitroFreeze-5-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/NitroFreeze/NitroFreeze-6-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\NitroFreeze\\NitroFreeze-6-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/NitroFreeze/NitroFreeze-7-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\NitroFreeze\\NitroFreeze-7-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/SprayNPray/Idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\SprayNPray\\Idle-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/SprayNPray/Idle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\SprayNPray\\Idle-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/SprayNPray/ShootingSpray-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\SprayNPray\\ShootingSpray-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/SprayNPray/ShootingSpray-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\SprayNPray\\ShootingSpray-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Chris/Normal-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Chris\\Normal-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Chris/Normal-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Chris\\Normal-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Chris/Normal-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Chris\\Normal-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Chris/Shooting-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Chris\\Shooting-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Chris/Shooting-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Chris\\Shooting-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Chris/Shooting-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Chris\\Shooting-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Bullet-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Bullet-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-5-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-6-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-7-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-8-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-8-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-9-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-9-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-10-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-10-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/BUS/BUS_Armor-11-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\BUS\\BUS_Armor-11-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Explosion/Explosion-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Explosion\\Explosion-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Explosion/Explosion-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Explosion\\Explosion-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Explosion/Explosion-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Explosion\\Explosion-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Explosion/Explosion-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Explosion\\Explosion-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/Explosion/Explosion-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\Explosion\\Explosion-5-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-5-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-6-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-7-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Effects/ShockWave/FreezeWave-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Effects\\ShockWave\\FreezeWave-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/Spin-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\Spin-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/Spin-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\Spin-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/Spin-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\Spin-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/Spin-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\Spin-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/Spin-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\Spin-2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/Spin-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\Spin-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/Spin-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\Spin-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/Spin-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\Spin-3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/NormieState-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\NormieState-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/RescueState-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\RescueState-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/RescueState-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\RescueState-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Helicopter/RescueState-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Helicopter\\RescueState-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-6-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-7-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Obstacles/HordeVisualisation/Horde1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Obstacles\\HordeVisualisation\\Horde1-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Tutorial/Dialogues/DebrisDialogue1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Tutorial\\Dialogues\\DebrisDialogue1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Tutorial/Dialogues/HordeDialogue1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Tutorial\\Dialogues\\HordeDialogue1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Tutorial/Dialogues/ScatterDialogue1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Tutorial\\Dialogues\\ScatterDialogue1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Tutorial/Dialogues/DebrisDialogue2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Tutorial\\Dialogues\\DebrisDialogue2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Tutorial/Dialogues/HordeDialogue2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Tutorial\\Dialogues\\HordeDialogue2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Tutorial/Dialogues/ScatterDialogue2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Tutorial\\Dialogues\\ScatterDialogue2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Tutorial/TutorialCompletedDialogue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Tutorial\\TutorialCompletedDialogue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Background/RoadLine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Background\\RoadLine.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Background/Road.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Background\\Road.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/Background/Grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\Background\\Grass.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/Visual/White.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\Visual\\White.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/LevelTutButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\LevelTutButton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/LevelTutButtonPressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\LevelTutButtonPressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/Level1Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\Level1Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/Level1ButtonPressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\Level1ButtonPressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/Level2Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\Level2Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/Level2ButtonPressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\Level2ButtonPressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/LevelLockedButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\LevelLockedButton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/BackButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\BackButton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/BackButtonPressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\BackButtonPressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/Level3Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\Level3Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Buttons/Level3ButtonPress.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Buttons\\Level3ButtonPress.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Gallery/GalleryO1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Gallery\\GalleryO1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Gallery/GalleryO2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Gallery\\GalleryO2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Gallery/GalleryN1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Gallery\\GalleryN1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Gallery/GalleryN2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Gallery\\GalleryN2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Gallery/GalleryD1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Gallery\\GalleryD1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Gallery/GalleryD2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Gallery\\GalleryD2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Gallery/GalleryD3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Gallery\\GalleryD3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resource/UI/Warning/Buzz/Bow-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resource\\UI\\Warning\\Buzz\\Bow-5-0.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "LevelCompleted",
+      "value": "0"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/levelchooser"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gallery"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/leveltut"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level3"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cardsystem"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
